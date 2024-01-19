@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aasif- Developer portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a415f1393f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+          <nav>
+              <img src="aasif-logo1.jpg" class="logo">
+              <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fa fa-times" onclick="closemenu()"></i>
+              </ul>
+              <i class="fa fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+              
+              <h1>Hi, I'm <span>Aasif</span> </h1><br> 
+              <span>Web Developer.</span>
+              <p>
+               <i> This is my official portfolio website to <br> show all Details and work exiprins <br> web development</i></p>
+          </div>
+      </div>
+  </div>
+    <!---------------------------------------------- about ------------------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="BLYQ5827.JPG">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Developer <span>& Designer</span></p>
+            <p>
+              i'm a web developer with a passion for crafting beautiful and functional websites.
+              i can provide a clean code and pixel perfect design. I also make websites more & more interactive with web animations.A responsive design make your website accessible to all users, regardless of their device.
+              i specialize in front-end development using HTML, CSS and JavaScript. I love turning ideas into reality and creating user-friendly expriences that leaves a lasting impression.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links onclick=" onclick="opentab('education')">Exprience</p>
+              <p class="tab-links onclick=" onclick="opentab('exprience')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>Core Java</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Advance CSS & Bootstrap</li>
+                <li>Web Performance Optimization</li>
+                <li>Problem-Solving Skills</li>
+                <li>Design Skills</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br />Web Development internship at Prodigy Info Tech</li>
+                <li><span>2023</span><br />Java Training at Qspiders</li>
+                <li><span>2022</span><br />Web Development training at CETPA InfoTech</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="exprience">
+              <ul>
+                <li><span>2019-2023</span><br />B-Tech(Electronic and Communication Engineering)</li>
+                <li><span>2018</span><br />12th (Non-medical)</li>
+                <li><span>2016</span><br />10th</li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>  
+      </div>
+      <!-- ---------------------sevices----------- -->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Design</h2>
+              <p>Creation of websites and pages to reflect a company's brand and information
+                and ensure a user-friendly exprience.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-regular fa-crop"></i>
+              <h2>UI/UX Design</h2>
+              <p>Creation of the screens, buttons, toggles, icons and other visual elements that you interact with when using a website, app or electronic device.</p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h2>App Design</h2>
+              <p>Creation of the website application that delivers a seamless user exprience(UX) and meets users' core needs with clean,complling user interface (UI).</p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------portrfolio------------- -->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="asif-code1.jpg" alt="">
+              <div class="layer">
+                <h3>Coding</h3>
+                <p>I'm not a great programmer, I'm just a good programmer with great habits.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="aasif-edu.jpg" alt="">
+              <div class="layer">
+                <h3>Education</h3>
+                <p>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="asif-fb.jpg" alt="">
+              <div class="layer">
+                <h3>Social Media</h3>
+                <p>Social media is not a monologue, it’s a two-way conversation.
+                  Personal branding and social media go hand in hand
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+
+        </div>
+      </div>
+     <!-- ---------------------- contact---------------- -->
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> aasif1901308@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 7006591827</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/MDAacif" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/aacif_kashmiri/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/aasif-bashir-9115491b1/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/A1C2i3f" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            </div>
+            <a href="Aasif-resumeNEW.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form >
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2024; Designed by <i class="fa-solid fa-heart"></i> Aasif Bashir</p>
+      </div>
+     </div>
+
+
+
+    <script>
+     
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+       var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+
+
+    </script>
+  </body>
+</html>
